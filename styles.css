@@ -1,0 +1,297 @@
+/* Reset some default styles for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Specify a font-family */
+    background-color: #f0f0f0; /* Set a background color for the entire page */
+}
+
+/* Style the header section */
+header {
+    position: relative;
+    background-image: url('Home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+/* Style the background image */
+.background-image img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation menu */
+nav {
+    position: absolute;
+    top: 20px;
+    left: 0;
+   
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    text-decoration: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #3c3c3c;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    background-color: #3c3c3c;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Style the "Contact" button */
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px; /* Add space between the menu and button */
+    font-weight: bold;
+}
+
+/* Style the social links */
+.container ul.social-links {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+.container ul.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.container ul.social-links img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Style the content sections */
+.content-section {
+    background-color: white; /* Set background color for sections */
+    padding: 40px; /* Add padding to space out content */
+    margin: 20px 0; /* Add margin to separate sections */
+    border: 1px solid #ddd; /* Add a border to sections */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.content-section h3 {
+    color: #333;
+}
+
+/* Add margin to the top of the "À propos de moi" section */
+#about {
+    margin-top: 20px;
+}
+
+.image-carousel img {
+    max-width: 350px; /* Set the maximum width */
+    max-height: 350px; /* Set the maximum height */
+    width: auto; /* Allow the image to scale while maintaining aspect ratio */
+    height: auto; /* Allow the image to scale while maintaining aspect ratio */
+}
+
+/* Add a border and margin to separate each project */
+.project {
+    border: 1px solid #ddd;
+    margin-bottom: 20px; /* Add margin between projects */
+    padding: 20px; /* Add padding inside each project */
+}
+
+/* Style the form inputs in a single column */
+#contact-form label {
+    display: block;
+    margin-bottom: 10px; /* Add vertical spacing between input elements */
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px; /* Add vertical spacing between input elements */
+}
+
+/* Style the skills and education sections */
+.skills-list,
+.education-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li,
+.education-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.skills-list i,
+.education-list i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Style the contact information section */
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Style the Google Maps iframe */
+#map iframe {
+    width: 50%;
+    height: 400px;
+    border: none;
+}
+/* Style the form submit button */
+#contact-form button {
+    background-color: #3c3c3c;
+    color: white; /* Change text color to white */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Add hover effect to the submit button */
+#contact-form button:hover {
+    background-color: #555;
+}
+/* Style the "Mini Projets" section */
+#mini-projects {
+    margin-top: 20px;
+}
+
+/* Style the images in the "Mini Projets" section */
+#mini-projects .project img {
+    max-width: 350px; /* Set the maximum width */
+    max-height: 350px; /* Set the maximum width to make the images responsive */
+    height: auto; /* Allow the images to scale while maintaining aspect ratio */
+}
+/* Style the "Certificates Obtained" section */
+#certificates {
+    margin-top: 20px;
+}
+
+/* Style the certificate list */
+.certificate-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style each certificate item */
+.certificate-item {
+    margin-bottom: 20px;
+}
+
+/* Style the certificate title */
+.certificate-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the download link and add hover effect */
+.certificate-item a {
+    text-decoration: none;
+    color: #3c3c3c;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.certificate-item a:hover {
+    background-color: #3c3c3c;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Style the certificate images to have a fixed height and width */
+.certificate-item img {
+    width: 300px;
+    height: 200px;
+}
+#profile-details {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#profile-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+#profile-details ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+/* Add this to your existing CSS styles */
+nav {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 10%;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Adjust this as needed */
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #3c3c3c;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.image-carousel {
+   
+    margin-top: 10px;
+}
+
+.project-image {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-image:hover {
+    transform: scale(1.1);
+}
+
+.image-description {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
